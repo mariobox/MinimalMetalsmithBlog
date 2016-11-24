@@ -1,0 +1,14 @@
+{{> header }}
+  <header>
+    <a class="back-to-index" href="../index.html">&larr; Home</a>
+  </header>
+    <article>
+      <h1>{{ title }}</h1>
+      <div class="meta">
+          {{#if date}}Published: {{ date }}{{/if}}
+      </div>
+      {{{ contents }}}
+    </article>
+    <hr />
+    <nav><br /><a href="../">Home</a> | <a href="../about/">About This Site</a></nav> 
+{{> footer }}

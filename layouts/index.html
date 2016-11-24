@@ -1,0 +1,17 @@
+{{> header }}
+    <h1>{{ site.name }}</h1>
+    <p>{{ site.description}}</p>
+    <h2>Posts</h2>
+
+    <ul class="recent">
+    {{#each articles }}
+      <li>
+        <div class="title"><a href="{{ path }}">{{ title }}</a></div>
+        <div class="date">{{ date }}</div>
+      </li>
+    {{/each}}
+    </ul>
+    <hr />
+    <nav><a href="../about/">About This Site</a></nav> 
+
+{{> footer }}
