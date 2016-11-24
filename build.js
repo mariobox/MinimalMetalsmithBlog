@@ -7,6 +7,9 @@ var permalinks = require('metalsmith-permalinks');
 var serve = require('metalsmith-serve');
 var watch = require('metalsmith-watch');
 
+handlebars.registerHelper('moment', require('helper-moment'));
+
+
 metalsmith(__dirname)
   .metadata({
     site: {

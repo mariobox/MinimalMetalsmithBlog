@@ -5,7 +5,7 @@
     <article>
       <h1>{{ title }}</h1>
       <div class="meta">
-          {{#if date}}Published: {{ date }}{{/if}}
+          {{#if date}}Published: {{ moment date lang="en" format="DD MMMM YYYY" }}{{/if}}
       </div>
       {{{ contents }}}
     </article>
