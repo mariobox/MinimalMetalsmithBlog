@@ -11,10 +11,6 @@ Parimal's tutorial lets you create a barebones Metalsmith blog. I have added a l
 
 I will tweak and add some more improvements to this project as I go along learning.
 
-Here is the source code for this blog. 
+Here is the source code for this blog: [https://github.com/mariobox/MinimalMetalsmithBlog](https://github.com/mariobox/MinimalMetalsmithBlog). 
 
-Here is a link to the live demo, and to the repository containing the final HTML files (served to the web as a Github project page).
-
-Thanks.
-
-Mario Sanchez Carrion | [mariosanchez.org](http://www.mariosanchez.org).
+Here is the [live demo](http://mariobox.github.io/MiniMetalDemo/).
